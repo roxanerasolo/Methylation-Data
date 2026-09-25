@@ -14,4 +14,5 @@ Python toolkit for processing DNA methylation array data (IDATs or beta values) 
   clock_betas = load_clock_betas()
   ```
 - `Epigenetic_clocks/` – epigenetic clock outputs (biolearn additions, EBPs, Marioni markers, all metrics).
-- `log/` – logs (currently empty).
+- `log/` – logs.
+- `IDATs/` – raw IDAT files (currently empty).
