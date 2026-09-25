@@ -8,3 +8,8 @@ Python toolkit for processing DNA methylation array data (IDATs or beta values) 
   from Normalized.load_betas import load_betas
   betas = load_betas()
   ```
+- `Epigenetic_clocks/` – ssnoob-normalized beta values prepared for epigenetic clocks (`ssnoob_betas_EPICv2custom_clocks`, 930,596 CpGs × 21 samples), split into gzipped parts. Rebuild with:
+  ```python
+  from Epigenetic_clocks.load_clock_betas import load_clock_betas
+  clock_betas = load_clock_betas()
+  ```
